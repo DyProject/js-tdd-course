@@ -1,0 +1,24 @@
+https://docs.npmjs.com/creating-a-package-json-file
+
+Configurando o npm:
+
+> npm set init.author.email "example-user@example.com"
+> npm set init.author.name "example_user"
+> npm set init.license "MIT"
+
+Adicionar npm user:
+npm adduser
+Inserir nome de usuário: dycam
+senha:macde@2019
+
+Iniciando uma biblioteca:
+npm init
+
+O ESLINT é utilizado para testar os padrões de códigos. Estou usando o padrão da airbnb para códigos. Todos os programadores seguirão o mesmo padrão.
+
+Instalando o ESLINT:
+https://eslint.org/docs/user-guide/getting-started
+
+Rodando todos os arquivos para texto styleguides ESLINT
+.\node_modules\.bin\eslint src\*.js
+
